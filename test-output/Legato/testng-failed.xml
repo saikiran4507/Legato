@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Legato]">
+  <listeners>
+    <listener class-name="com.Legato.utilites.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="ITMS_APP(failed)">
+    <classes>
+      <class name="com.Legato.testCases.LoginTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Legato.testCases.LoginTest -->
+    </classes>
+  </test> <!-- ITMS_APP(failed) -->
+</suite> <!-- Failed suite [Legato] -->

@@ -1,0 +1,6 @@
+com\Legato\pageObjects\LoginPage.class
+com\Legato\testCases\BaseClass.class
+com\Legato\utilites\ReadConfig.class
+com\Legato\utilites\Reporting.class
+com\Legato\utilites\XLUtils.class
+com\Legato\testCases\LoginTest.class

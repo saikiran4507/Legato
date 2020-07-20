@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="Legato">
+	<listeners>
+		<listener class-name="com.Legato.utilites.Reporting">
+		</listener>
+	</listeners>
+	<test name="ITMS_APP">
+		<classes>
+			<class name="com.Legato.testCases.LoginTest"></class>
+		</classes>
+	</test>
+</suite>
