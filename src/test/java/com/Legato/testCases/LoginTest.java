@@ -27,7 +27,7 @@ public class LoginTest extends BaseClass {
 		} else {
 			captureScreen(driver, "loginTest");
 			Assert.assertFalse(false);
-			logger.info("Test failed");
+			logger.info("Test failed and relaunch again");
 		}
 
 	}
